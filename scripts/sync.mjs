@@ -18,8 +18,8 @@ function url(value, prefix) {
   if (parsed.origin !== origin || parsed.username || parsed.password || parsed.search || parsed.hash || !/^\/[a-z0-9/-]*$/.test(parsed.pathname) || !parsed.pathname.startsWith(prefix) || !parsed.pathname.endsWith('/')) throw new Error('Directory URL must be a canonical website link.');
   return parsed.href;
 }
-function rows(value) {
-  if (!Array.isArray(value) || !value.length || value.length > 1000) throw new Error('Invalid public directory size.');
+function rows(value, allowEmpty = false) {
+  if (!Array.isArray(value) || (!allowEmpty && !value.length) || value.length > 1000) throw new Error('Invalid public directory size.');
   return value;
 }
 function number(value) {
@@ -36,7 +36,7 @@ function day(value) {
 export function validate(data) {
   if (data.schemaVersion !== 1 || data.site?.url?.replace(/\/$/, '') !== origin) throw new Error('Unexpected public directory schema or website.');
   const site = { name: text(data.site.name), description: text(data.site.description) };
-  const airports = rows(data.airports).map(a => ({ name: text(a.name), url: url(a.url, '/airports/'), summary: text(a.summary), monthlyPrice: number(a.monthlyPrice), monthlyTraffic: number(a.monthlyTraffic), tags: rows(a.tags).slice(0, 3).map(t => text(t, 50)) }));
+  const airports = rows(data.airports).map(a => ({ name: text(a.name), url: url(a.url, '/airports/'), summary: text(a.summary), monthlyPrice: number(a.monthlyPrice), monthlyTraffic: number(a.monthlyTraffic), tags: rows(a.tags, true).slice(0, 3).map(t => text(t, 50)) }));
   const clients = rows(data.clients).map(c => ({ name: text(c.name), url: url(c.url, '/clients/'), description: text(c.description), platforms: rows(c.platforms).map(p => text(p, 50)) }));
   const articles = rows(data.articles).map(a => {
     if (!categories[a.category] || (a.audience != null && !audiences[a.audience])) throw new Error('Invalid article category or audience.');
@@ -112,7 +112,9 @@ ${preview}
     const entries = articles.filter(a => a.category === id);
     return `## ${label}\n\n` + entries.map(a => `### ${link(a.title, a.url)}\n\n${md(a.description)}\n\n${a.audience ? `适合：${audiences[a.audience]} · ` : ''}发布日期：${a.date}${a.updated ? ` · 更新日期：${a.updated}` : ''}\n`).join('\n');
   }).join('\n');
-  const directory = `# 机场节点 · 完整内容目录\n\n[网站首页](${origin}/) · [返回仓库介绍](README.md)\n\n收录 ${airports.length} 家机场、${clients.length} 款客户端及内核、${articles.length} 篇知识与教程。\n\n${groups}\n`;
+  const clientDetails = clients.map(c => `### ${link(c.name, c.url)}\n\n${md(c.description)}\n\n适用平台：${c.platforms.map(md).join(' · ')}\n`).join('\n');
+  const airportDetails = airports.map(a => `- ${link(a.name, a.url)}${a.tags.length ? ` · ${a.tags.map(md).join(' · ')}` : ''}`).join('\n');
+  const directory = `# 机场节点 · 完整内容目录\n\n[网站首页](${origin}/) · [返回仓库介绍](README.md)\n\n收录 ${airports.length} 家机场、${clients.length} 款客户端及内核、${articles.length} 篇知识与教程。\n\n## 机场速览\n\n${airportDetails}\n\n## 客户端与内核\n\n${clientDetails}\n${groups}\n`;
   return { 'README.md': readme, 'DIRECTORY.md': directory };
 }
 
