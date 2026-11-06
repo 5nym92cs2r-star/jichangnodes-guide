@@ -4,6 +4,78 @@
 
 收录 19 家机场、8 款客户端及内核、30 篇知识与教程。
 
+## 机场速览
+
+- [二猫云](https://jichangnodes.blog/airports/ermaoyun/) · 月付套餐 · 不限时流量 · 年付小包
+- [闪电鼠](https://jichangnodes.blog/airports/shandianshu/) · 月付套餐 · 年付小包 · 多平台客户端
+- [瞬云](https://jichangnodes.blog/airports/shunyun/) · 月付套餐 · 大流量 · 不限时流量
+- [云图机场](https://jichangnodes.blog/airports/yuntu/) · 月付套餐 · 并发限制 · 大流量
+- [U1S1](https://jichangnodes.blog/airports/u1s1/) · 官方客户端 · 月付套餐 · 年付小包
+- [全球云](https://jichangnodes.blog/airports/globalcloud/) · 官方客户端 · 月付套餐 · 不限时流量
+- [快狸](https://jichangnodes.blog/airports/kuaili/) · 低门槛月付 · 年付小包 · 大流量
+- [速界](https://jichangnodes.blog/airports/speedworld/) · 低门槛月付 · 年付小包 · 大流量
+- [可信云](https://jichangnodes.blog/airports/kexinyun/) · 低门槛月付 · 不限时流量 · 年付小包
+- [边缘](https://jichangnodes.blog/airports/edgenova/) · 低门槛月付 · 不限时流量 · 大流量
+- [灵猫网络](https://jichangnodes.blog/airports/civet/) · 官方客户端 · 月付套餐 · 不限时流量
+- [环球梯](https://jichangnodes.blog/airports/huanqiuti/) · 低门槛月付 · 不限时流量 · 年付小包
+- [隐形人](https://jichangnodes.blog/airports/invisible/) · 月付套餐 · 不限时流量 · 大流量
+- [神行加速](https://jichangnodes.blog/airports/shenxing/) · 月付套餐 · 不限时流量 · 大流量
+- [云界线](https://jichangnodes.blog/airports/yunjiexian/) · 月付套餐 · 不限时流量 · 年付小包
+- [榴莲云](https://jichangnodes.blog/airports/liulianyun/) · 月付套餐 · 不限时流量 · 大流量
+- [鲲鹏加速](https://jichangnodes.blog/airports/kunpeng/) · 低门槛月付 · 并发限制 · 月付套餐
+- [大佬云](https://jichangnodes.blog/airports/dalaoyun/) · 官方客户端 · 月付套餐 · 不限时流量
+- [速网云](https://jichangnodes.blog/airports/suwangyun/) · 低门槛月付 · 不限时流量 · 并发限制
+
+## 客户端与内核
+
+### [Clash Verge Rev](https://jichangnodes.blog/clients/clash-verge-rev/)
+
+面向桌面设备的图形客户端，将订阅、策略组与分流规则放在清晰的界面中。适合希望直观管理连接的读者。
+
+适用平台：Windows · macOS · Linux
+
+### [Mihomo](https://jichangnodes.blog/clients/mihomo/)
+
+Clash Meta 系列的代理内核，负责规则分流、DNS 与代理连接。想直接用图形界面管理订阅，可以选择搭载 Mihomo 的 Clash Verge Rev；自行配置内核适合进阶用户。
+
+适用平台：Windows · macOS · Linux · Android · FreeBSD
+
+### [FlClash](https://jichangnodes.blog/clients/flclash/)
+
+基于 Mihomo 的跨平台图形客户端，覆盖 Android 和常用桌面系统。适合希望在手机与电脑上用相近界面管理 Clash 订阅、节点和规则的读者。
+
+适用平台：Android · Windows · macOS · Linux
+
+### [Clash Mi](https://jichangnodes.blog/clients/clash-mi/)
+
+搭载 Mihomo 的图形客户端，覆盖 iPhone、iPad、Android 与桌面设备。适合希望在不同设备上管理兼容 Clash 配置的读者。
+
+适用平台：iOS · iPadOS · Android · Windows · macOS · Linux
+
+### [Hiddify](https://jichangnodes.blog/clients/hiddify/)
+
+基于 sing-box 的多平台代理客户端，提供订阅管理、自动选择节点和连接开关。适合想在手机、电脑上使用同一类工具的读者。
+
+适用平台：Android · iOS · iPadOS · Windows · macOS · Linux
+
+### [v2rayN](https://jichangnodes.blog/clients/v2rayn/)
+
+支持多个代理内核的桌面客户端，提供订阅分组、节点选择和路由设置。选用时先核对系统对应的发布文件。
+
+适用平台：Windows · macOS · Linux
+
+### [v2rayNG](https://jichangnodes.blog/clients/v2rayng/)
+
+Android 平台的代理客户端，适合通过订阅或节点配置管理手机连接。连接前需要确认系统 VPN 授权。
+
+适用平台：Android
+
+### [Shadowrocket](https://jichangnodes.blog/clients/shadowrocket/)
+
+常被称为“小火箭”的规则代理工具。这里提供 Apple App Store 正版入口，首次使用可从 iPhone、iPad 入门教程开始。
+
+适用平台：iOS · iPadOS
+
 ## 机场知识
 
 ### [机场怎么选？先确定设备、预算和日常用途](https://jichangnodes.blog/knowledge/choose-airport-by-needs/)
