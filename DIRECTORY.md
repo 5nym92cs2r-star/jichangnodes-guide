@@ -2,7 +2,7 @@
 
 [网站首页](https://jichangnodes.blog/) · [返回仓库介绍](README.md)
 
-收录 19 家机场、8 款客户端及内核、30 篇知识与教程。
+收录 19 家机场、8 款客户端及内核、33 篇知识与教程。
 
 ## 机场速览
 
@@ -78,15 +78,27 @@ Android 平台的代理客户端，适合通过订阅或节点配置管理手机
 
 ## 机场知识
 
+### [便宜机场怎么选才划算？月付、年付和按量费用算给你看](https://jichangnodes.blog/knowledge/cheap-airport-cost-checklist/)
+
+寻找便宜机场或性价比梯子，先分清实际月付与年付折合价。用三个费用例子比较月付、年包和按量套餐，附流量倍率、设备限制与购买前核对清单。
+
+发布日期：2026-11-16
+
+### [Clash 机场订阅怎么选？购买前确认这 4 项兼容条件](https://jichangnodes.blog/knowledge/clash-subscription-compatibility/)
+
+Clash 机场是否支持你的设备？区分机场、Clash 客户端与 Mihomo 内核，购买前核对订阅格式、协议、设备平台和专用客户端限制，附导入失败后的排查顺序。
+
+发布日期：2026-11-16
+
+### [节点延迟低却很慢？看懂延迟、测速与丢包](https://jichangnodes.blog/knowledge/latency-speed-and-stability/)
+
+节点显示低延迟，网页却打不开或视频卡顿？区分延迟、下载速度、抖动与丢包，按实际使用场景检查连接质量，避免只凭一个测速数字选机场。
+
+发布日期：2026-11-05 · 更新日期：2026-11-16
+
 ### [机场怎么选？先确定设备、预算和日常用途](https://jichangnodes.blog/knowledge/choose-airport-by-needs/)
 
 用设备兼容、付款周期、流量需求与验证条件筛选机场，建立属于自己的比较顺序。
-
-发布日期：2026-11-05
-
-### [延迟低就一定快吗？分清速度、抖动与稳定性](https://jichangnodes.blog/knowledge/latency-speed-and-stability/)
-
-看懂延迟、吞吐速度、抖动和丢包分别说明什么，用适合自己的场景判断连接质量。
 
 发布日期：2026-11-05
 
@@ -115,6 +127,12 @@ Android 平台的代理客户端，适合通过订阅或节点配置管理手机
 发布日期：2026-11-05
 
 ## 使用教程
+
+### [v2rayN 如何添加订阅？导入地址、更新节点与首次连接](https://jichangnodes.blog/guides/v2rayn-subscription-setup/)
+
+v2rayN 订阅地址填在哪里？按步骤添加订阅分组、更新节点并验证连接，区分订阅链接与官网地址，解决首次配置时常见的操作疑问。
+
+发布日期：2026-11-05 · 更新日期：2026-11-16
 
 ### [Clash Mi 入门：选择版本、导入配置与验证连接](https://jichangnodes.blog/guides/clash-mi-setup/)
 
@@ -164,12 +182,6 @@ Android 平台的代理客户端，适合通过订阅或节点配置管理手机
 
 发布日期：2026-11-05
 
-### [v2rayN 订阅使用教程：从添加分组到验证连接](https://jichangnodes.blog/guides/v2rayn-subscription-setup/)
-
-选择适配设备的 v2rayN 发布文件，添加兼容订阅，再分别确认节点、系统代理与路由设置。
-
-发布日期：2026-11-05
-
 ### [Android 使用 v2rayNG：安装、订阅与连接检查](https://jichangnodes.blog/guides/v2rayng-android-setup/)
 
 为 Android 设备选择 v2rayNG，核对订阅兼容性、系统 VPN 授权与后台连接行为。
@@ -178,11 +190,17 @@ Android 平台的代理客户端，适合通过订阅或节点配置管理手机
 
 ## 常见问题
 
-### [全部节点超时怎么办？用几次对照缩小故障范围](https://jichangnodes.blog/troubleshooting/all-nodes-timeout/)
+### [所有节点都超时怎么办？从网络到订阅逐步排查](https://jichangnodes.blog/troubleshooting/all-nodes-timeout/)
 
-区分测试地址、账户、基础网络与节点连接问题，按低影响步骤排查全部节点超时。
+Clash 或 v2rayN 所有节点都超时，先检查本地网络、订阅状态和系统时间，再区分节点故障与客户端配置问题，避免反复重装仍无法连接。
 
-适合：进阶使用 · 发布日期：2026-11-05
+适合：进阶使用 · 发布日期：2026-11-05 · 更新日期：2026-11-16
+
+### [v2rayN 订阅导入后没有节点？5 步检查地址、更新与分组](https://jichangnodes.blog/troubleshooting/v2rayn-import-checklist/)
+
+v2rayN 添加订阅后列表为空，先区分官网网址、订阅地址和单节点链接，再检查分组更新、筛选、到期状态及格式。附错误现象与对应处理方法。
+
+适合：新手入门 · 发布日期：2026-11-16
 
 ### [第一次连接，应该选哪个地区的节点？](https://jichangnodes.blog/troubleshooting/choose-your-first-node/)
 

@@ -61,18 +61,18 @@
 
 ## 近期文章
 
+- [v2rayN 如何添加订阅？导入地址、更新节点与首次连接](https://jichangnodes.blog/guides/v2rayn-subscription-setup/) · 使用教程
+- [便宜机场怎么选才划算？月付、年付和按量费用算给你看](https://jichangnodes.blog/knowledge/cheap-airport-cost-checklist/) · 机场知识
+- [Clash 机场订阅怎么选？购买前确认这 4 项兼容条件](https://jichangnodes.blog/knowledge/clash-subscription-compatibility/) · 机场知识
+- [节点延迟低却很慢？看懂延迟、测速与丢包](https://jichangnodes.blog/knowledge/latency-speed-and-stability/) · 机场知识
+- [所有节点都超时怎么办？从网络到订阅逐步排查](https://jichangnodes.blog/troubleshooting/all-nodes-timeout/) · 常见问题 · 进阶使用
+- [v2rayN 订阅导入后没有节点？5 步检查地址、更新与分组](https://jichangnodes.blog/troubleshooting/v2rayn-import-checklist/) · 常见问题 · 新手入门
 - [Clash Mi 入门：选择版本、导入配置与验证连接](https://jichangnodes.blog/guides/clash-mi-setup/) · 使用教程
 - [Clash Verge Rev 入门：安装、导入订阅与首次连接](https://jichangnodes.blog/guides/clash-verge-rev-setup/) · 使用教程
 - [FlClash 入门：下载、导入订阅与首次连接](https://jichangnodes.blog/guides/flclash-setup/) · 使用教程
 - [Hiddify 入门：选择下载入口、导入订阅与首次连接](https://jichangnodes.blog/guides/hiddify-setup/) · 使用教程
-- [怎样测试机场连接质量：建立一份可比较的记录](https://jichangnodes.blog/guides/measure-connection-quality/) · 使用教程
-- [Mihomo 入门：认识代理内核、下载与配置基础](https://jichangnodes.blog/guides/mihomo-core-setup/) · 使用教程
-- [Shadowrocket 小火箭入门：购买应用之后如何开始使用](https://jichangnodes.blog/guides/shadowrocket-iphone-setup/) · 使用教程
-- [反馈连接问题之前：怎样整理日志并隐藏敏感信息](https://jichangnodes.blog/guides/share-logs-safely/) · 使用教程
-- [v2rayN 订阅使用教程：从添加分组到验证连接](https://jichangnodes.blog/guides/v2rayn-subscription-setup/) · 使用教程
-- [Android 使用 v2rayNG：安装、订阅与连接检查](https://jichangnodes.blog/guides/v2rayng-android-setup/) · 使用教程
 
-已收录 **30 篇**文章，查看[完整内容目录](DIRECTORY.md)。
+已收录 **33 篇**文章，查看[完整内容目录](DIRECTORY.md)。
 
 ## 自动更新
 
