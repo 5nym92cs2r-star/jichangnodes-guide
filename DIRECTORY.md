@@ -82,7 +82,13 @@ Android 平台的代理客户端，适合通过订阅或节点配置管理手机
 
 寻找便宜机场或性价比梯子，先分清实际月付与年付折合价。用三个费用例子比较月付、年包和按量套餐，附流量倍率、设备限制与购买前核对清单。
 
-发布日期：2026-11-16
+发布日期：2026-11-16 · 更新日期：2026-11-18
+
+### [机场怎么选？用设备、预算和使用时段筛出适合的套餐](https://jichangnodes.blog/knowledge/choose-airport-by-needs/)
+
+用一张需求表筛选机场：先确认客户端与设备，再比较付款总额、流量倍率和常用时段表现。附三个使用场景、购买前提问模板与首次连接检查。
+
+发布日期：2026-11-05 · 更新日期：2026-11-18
 
 ### [Clash 机场订阅怎么选？购买前确认这 4 项兼容条件](https://jichangnodes.blog/knowledge/clash-subscription-compatibility/)
 
@@ -95,12 +101,6 @@ Clash 机场是否支持你的设备？区分机场、Clash 客户端与 Mihomo 
 节点显示低延迟，网页却打不开或视频卡顿？区分延迟、下载速度、抖动与丢包，按实际使用场景检查连接质量，避免只凭一个测速数字选机场。
 
 发布日期：2026-11-05 · 更新日期：2026-11-16
-
-### [机场怎么选？先确定设备、预算和日常用途](https://jichangnodes.blog/knowledge/choose-airport-by-needs/)
-
-用设备兼容、付款周期、流量需求与验证条件筛选机场，建立属于自己的比较顺序。
-
-发布日期：2026-11-05
 
 ### [规则、全局、直连与 TUN：这些开关分别管什么](https://jichangnodes.blog/knowledge/proxy-modes-explained/)
 
@@ -127,6 +127,12 @@ Clash 机场是否支持你的设备？区分机场、Clash 客户端与 Mihomo 
 发布日期：2026-11-05
 
 ## 使用教程
+
+### [机场测速怎么测才有用？附对照步骤与连接质量记录表](https://jichangnodes.blog/guides/measure-connection-quality/)
+
+用固定设备、网络和目标测试机场连接，分开记录响应、持续传输与应用体验。附可复制记录表、示例判断和流量预算算法，帮助比较常用时段的表现。
+
+发布日期：2026-11-05 · 更新日期：2026-11-18
 
 ### [v2rayN 如何添加订阅？导入地址、更新节点与首次连接](https://jichangnodes.blog/guides/v2rayn-subscription-setup/)
 
@@ -158,12 +164,6 @@ v2rayN 订阅地址填在哪里？按步骤添加订阅分组、更新节点并�
 
 发布日期：2026-11-05
 
-### [怎样测试机场连接质量：建立一份可比较的记录](https://jichangnodes.blog/guides/measure-connection-quality/)
-
-用相同设备、网络和目标内容记录连接质量，分别观察延迟、传输、日常访问与使用时段。
-
-发布日期：2026-11-05
-
 ### [Mihomo 入门：认识代理内核、下载与配置基础](https://jichangnodes.blog/guides/mihomo-core-setup/)
 
 分清 Mihomo 内核与图形客户端，按系统选择官方文件，了解 YAML 配置、本地代理端口和首次连接的验证方法。
@@ -190,6 +190,36 @@ v2rayN 订阅地址填在哪里？按步骤添加订阅分组、更新节点并�
 
 ## 常见问题
 
+### [已连接却打不开网页？按请求、规则和节点三步排查](https://jichangnodes.blog/troubleshooting/connected-but-no-internet/)
+
+客户端显示已连接但网页打不开，先做普通网页对照，再检查请求是否进入客户端、匹配哪条规则及节点是否可用。附症状分流表和恢复原设置的方法。
+
+适合：进阶使用 · 发布日期：2026-11-05 · 更新日期：2026-11-18
+
+### [机场买好了怎么用？从订单生效到第一次连接的检查表](https://jichangnodes.blog/troubleshooting/first-steps-after-purchase/)
+
+付款后按订单、客户端、订阅、节点和实际访问五步检查。每一步说明成功标志，区分没有节点、更新失败和已连接打不开网页，避免重复购买或重装。
+
+适合：新手入门 · 发布日期：2026-11-05 · 更新日期：2026-11-18
+
+### [机场晚上很慢怎么办？用四组对照区分网络和节点问题](https://jichangnodes.blog/troubleshooting/slow-evening-connection/)
+
+晚高峰网页慢、视频卡，先检查本地网络，再对照同目标不同节点、同节点不同目标与不同接入网络。附结果判断表和客服反馈模板。
+
+适合：进阶使用 · 发布日期：2026-11-05 · 更新日期：2026-11-18
+
+### [订阅更新失败怎么办？按错误提示检查链接、账户和格式](https://jichangnodes.blog/troubleshooting/subscription-update-failed/)
+
+订阅超时、401/403、证书错误或 YAML 解析失败分别查什么？按错误类型定位订阅更新问题，保留可用旧配置，并整理能交给客服的排查记录。
+
+适合：进阶使用 · 发布日期：2026-11-05 · 更新日期：2026-11-18
+
+### [电视和电视盒子怎样用节点？先认清设备系统](https://jichangnodes.blog/troubleshooting/tv-proxy-setup/)
+
+分清 Android TV、Google TV、Fire TV、Apple TV 与三星、LG 电视，再选择适合设备的客户端和连接方式。
+
+适合：新手入门 · 发布日期：2026-11-05 · 更新日期：2026-11-18
+
 ### [所有节点都超时怎么办？从网络到订阅逐步排查](https://jichangnodes.blog/troubleshooting/all-nodes-timeout/)
 
 Clash 或 v2rayN 所有节点都超时，先检查本地网络、订阅状态和系统时间，再区分节点故障与客户端配置问题，避免反复重装仍无法连接。
@@ -207,12 +237,6 @@ v2rayN 添加订阅后列表为空，先区分官网网址、订阅地址和单�
 从实际用途和可用节点开始，结合网页体验挑选第一条线路，不只看地区名称和延迟数字。
 
 适合：新手入门 · 发布日期：2026-11-05
-
-### [显示已连接却打不开网页？先检查流量经过了哪里](https://jichangnodes.blog/troubleshooting/connected-but-no-internet/)
-
-从基础网络、系统代理、路由规则和目标网站四个层面定位问题，区分连接状态与实际访问结果。
-
-适合：进阶使用 · 发布日期：2026-11-05
 
 ### [DNS 解析失败怎么查？先确认错误发生在哪一层](https://jichangnodes.blog/troubleshooting/dns-resolution-errors/)
 
@@ -232,12 +256,6 @@ v2rayN 添加订阅后列表为空，先区分官网网址、订阅地址和单�
 
 适合：新手入门 · 发布日期：2026-11-05
 
-### [机场买好了，接下来怎么开始使用？](https://jichangnodes.blog/troubleshooting/first-steps-after-purchase/)
-
-按确认套餐、选择客户端、导入订阅和验证连接的顺序，完成购买后的第一次使用。
-
-适合：新手入门 · 发布日期：2026-11-05
-
 ### [关掉客户端后，普通网页也打不开怎么办？](https://jichangnodes.blog/troubleshooting/restore-network-after-disconnecting/)
 
 先正常断开连接，再检查系统代理是否恢复；用小范围排查找原因，不随意删除网卡或关闭防火墙。
@@ -250,18 +268,6 @@ v2rayN 添加订阅后列表为空，先区分官网网址、订阅地址和单�
 
 适合：新手入门 · 发布日期：2026-11-05
 
-### [晚高峰速度变慢：先区分本地拥堵与节点波动](https://jichangnodes.blog/troubleshooting/slow-evening-connection/)
-
-通过时间、网络、节点和目标应用对照，找到晚间速度下降的可能范围，避免只看一次测速下结论。
-
-适合：进阶使用 · 发布日期：2026-11-05
-
-### [订阅导入或更新失败：从链接、账户到格式逐项排查](https://jichangnodes.blog/troubleshooting/subscription-update-failed/)
-
-按最容易验证的顺序检查订阅链接、账户状态、网络路径和配置格式，避免反复重装客户端。
-
-适合：进阶使用 · 发布日期：2026-11-05
-
 ### [流量多久清零？不用也会到期吗？](https://jichangnodes.blog/troubleshooting/traffic-reset-and-expiry/)
 
 把流量重置、套餐到期和付款周期分开看，弄清月付、年付与一次性流量包的使用规则。
@@ -273,10 +279,4 @@ v2rayN 添加订阅后列表为空，先区分官网网址、订阅地址和单�
 通过关闭与开启 TUN 的对照，检查客户端权限、其他 VPN、网卡与 DNS 配置，保留可恢复的网络状态。
 
 适合：进阶使用 · 发布日期：2026-11-05
-
-### [电视和电视盒子怎样用节点？先认清设备系统](https://jichangnodes.blog/troubleshooting/tv-proxy-setup/)
-
-分清 Android TV、Google TV、Fire TV、Apple TV 与三星、LG 电视，再选择适合设备的客户端和连接方式。
-
-适合：新手入门 · 发布日期：2026-11-05
 

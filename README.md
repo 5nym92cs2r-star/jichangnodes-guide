@@ -61,16 +61,16 @@
 
 ## 近期文章
 
-- [v2rayN 如何添加订阅？导入地址、更新节点与首次连接](https://jichangnodes.blog/guides/v2rayn-subscription-setup/) · 使用教程
+- [机场测速怎么测才有用？附对照步骤与连接质量记录表](https://jichangnodes.blog/guides/measure-connection-quality/) · 使用教程
 - [便宜机场怎么选才划算？月付、年付和按量费用算给你看](https://jichangnodes.blog/knowledge/cheap-airport-cost-checklist/) · 机场知识
+- [机场怎么选？用设备、预算和使用时段筛出适合的套餐](https://jichangnodes.blog/knowledge/choose-airport-by-needs/) · 机场知识
+- [已连接却打不开网页？按请求、规则和节点三步排查](https://jichangnodes.blog/troubleshooting/connected-but-no-internet/) · 常见问题 · 进阶使用
+- [机场买好了怎么用？从订单生效到第一次连接的检查表](https://jichangnodes.blog/troubleshooting/first-steps-after-purchase/) · 常见问题 · 新手入门
+- [机场晚上很慢怎么办？用四组对照区分网络和节点问题](https://jichangnodes.blog/troubleshooting/slow-evening-connection/) · 常见问题 · 进阶使用
+- [订阅更新失败怎么办？按错误提示检查链接、账户和格式](https://jichangnodes.blog/troubleshooting/subscription-update-failed/) · 常见问题 · 进阶使用
+- [电视和电视盒子怎样用节点？先认清设备系统](https://jichangnodes.blog/troubleshooting/tv-proxy-setup/) · 常见问题 · 新手入门
+- [v2rayN 如何添加订阅？导入地址、更新节点与首次连接](https://jichangnodes.blog/guides/v2rayn-subscription-setup/) · 使用教程
 - [Clash 机场订阅怎么选？购买前确认这 4 项兼容条件](https://jichangnodes.blog/knowledge/clash-subscription-compatibility/) · 机场知识
-- [节点延迟低却很慢？看懂延迟、测速与丢包](https://jichangnodes.blog/knowledge/latency-speed-and-stability/) · 机场知识
-- [所有节点都超时怎么办？从网络到订阅逐步排查](https://jichangnodes.blog/troubleshooting/all-nodes-timeout/) · 常见问题 · 进阶使用
-- [v2rayN 订阅导入后没有节点？5 步检查地址、更新与分组](https://jichangnodes.blog/troubleshooting/v2rayn-import-checklist/) · 常见问题 · 新手入门
-- [Clash Mi 入门：选择版本、导入配置与验证连接](https://jichangnodes.blog/guides/clash-mi-setup/) · 使用教程
-- [Clash Verge Rev 入门：安装、导入订阅与首次连接](https://jichangnodes.blog/guides/clash-verge-rev-setup/) · 使用教程
-- [FlClash 入门：下载、导入订阅与首次连接](https://jichangnodes.blog/guides/flclash-setup/) · 使用教程
-- [Hiddify 入门：选择下载入口、导入订阅与首次连接](https://jichangnodes.blog/guides/hiddify-setup/) · 使用教程
 
 已收录 **33 篇**文章，查看[完整内容目录](DIRECTORY.md)。
 
